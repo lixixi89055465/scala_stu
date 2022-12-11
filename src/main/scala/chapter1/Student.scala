@@ -1,6 +1,6 @@
 package chapter1
 
-class Student(name: String, age: Int) {
+class Student(val name: String, var age: Int) {
   def printInfo(): Unit = {
     println(this.name + "\t" + this.age + "\t" + Student.school)
   }
