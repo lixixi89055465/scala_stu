@@ -2,7 +2,7 @@ package chapter02
 
 import chapter1.Student
 
-object Test07_DataType {
+object Test07_DataType1 {
   def main(args: Array[String]): Unit = {
     var c1 = 'c'
     val i1 = (c1 + 1).toChar

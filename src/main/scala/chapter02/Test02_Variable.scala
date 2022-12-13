@@ -2,7 +2,7 @@ package chapter02
 
 import chapter1.Student
 
-object Test02_Variable {
+object Test02_Variable1 {
   def main(args: Array[String]): Unit = {
     var name = "abc";
     println(name * 3)

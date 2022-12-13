@@ -5,7 +5,7 @@ package chapter02
 //import scala.util.control.Breaks
 import scala.util.control.Breaks._
 
-object Test08_DataTypeConversion {
+object Test08_DataTypeConversion1 {
   def main(args: Array[String]): Unit = {
     def dualFunctionOneAndTwo(fun: (Int, Int) => Int): Int = {
       fun(1, 2)
