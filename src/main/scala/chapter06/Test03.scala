@@ -4,6 +4,11 @@ import scala.beans.BeanProperty
 
 object Test03 {
   def main(args: Array[String]): Unit = {
+    val student = new Student()
+    println(student.age)
+    println(student.sex)
+    student.sex = "female"
+    println(student.sex)
 
   }
 
@@ -14,5 +19,5 @@ class Student {
   private var name: String = "alice"
   @BeanProperty
   val age: Int = 18
-  val sex: String = "male"
+  var sex: String = _
 }
