@@ -2,7 +2,11 @@ package chapter06
 
 object Test05 {
   def main(args: Array[String]): Unit = {
-    val student = new Student1()
+    //    val student = new Student1()
+    val student = new Student1
+    student.Student1()
+    var stu2=new Student1("alice")
+    var stu3=new Student1("bob",18)
   }
 }
 
