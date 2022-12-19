@@ -1,4 +1,4 @@
-package chapter17
+package chapter07
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
